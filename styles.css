@@ -81,14 +81,6 @@ a.button {
 }
 
 @media screen and (min-width: 900px) {
-    section:nth-child(1) {
-        justify-content: flex-end;
-    }
-
-    section:nth-child(2) {
-        justify-content: flex-start;
-    }
-
     div {
         text-align: left;
     }
