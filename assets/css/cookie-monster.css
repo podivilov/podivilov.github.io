@@ -1,0 +1,12 @@
+.cookie-monster {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+}
+.cookie-monster img {
+    width: 350px;
+    margin-right: 25px;
+    opacity: 100%;
+}

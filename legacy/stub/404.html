@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ОШИБКА 404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+      }
+      ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+      }
+      body, html {
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background:#0000aa;
+        color:#ffffff;
+        font-family:courier,monospace;
+        font-size:12pt;
+        text-align:center;
+        margin:100px;
+        margin-top: 14%;
+      }
+      .neg {
+        background:#fff;
+        color:#0000aa;
+        padding:2px 8px;
+        font-weight:bold;
+      }
+      p {
+        margin: 30px 100px;
+        text-align: left;
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      a,a:hover {
+        color:inherit;
+        font:inherit;
+        text-decoration: none;
+      }
+      .menu {
+        text-align:center;
+        margin-top:50px;
+      }
+      @-webkit-keyframes blinker {
+        0% { visibility: visible; }
+        50% { visibility: hidden; }
+        100% { visibility: visible; }
+      }
+      @keyframes blinker {
+        0% { visibility: visible; }
+        50% { visibility: hidden; }
+        100% { visibility: visible; }
+      }
+      blink {
+        -webkit-animation: blinker steps(1) 1s infinite;
+            animation: blinker steps(1) 1s infinite;
+      }
+    </style>
+  </head>
+  <body onkeyup="bsod()" onclick="bsod()">
+    <span class="neg">ОШИБКА 404</span>
+    <p>
+    Запрошенная страница не существует и, вероятно, никогда не существовала. Более того &mdash; есть ненулевая вероятность, что она никогда и не будет существовать.
+    </p>
+    <p>
+    * Нажмите CTRL+ALT+DEL для перезагрузки вашего компьютера. Вы потеряете всю несохранённую информацию во всех программах, которые были запущены.
+    </p>
+    <a href="https://podivilov.ru/">Для продолжения нажмите любую клавишу <blink>_</blink></a>
+  </body>
+  <script>function bsod() {window.location.href='/';}</script>
+</html>
+
